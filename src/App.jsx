@@ -1,8 +1,9 @@
-import Chat from "./containers/ChatPage"
+import Chat from "./pages/ChatPage";
+import LoginPage from './pages/Login';
 
 function App() {
 
-  return <Chat />
+  return <LoginPage />
 }
 
 export default App
